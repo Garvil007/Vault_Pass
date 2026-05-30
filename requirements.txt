@@ -1,0 +1,8 @@
+liboqs-python
+cryptography
+argon2-cffi
+SQLAlchemy
+alembic
+psycopg2-binary
+pytest
+python-dotenv

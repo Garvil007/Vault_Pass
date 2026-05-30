@@ -1,0 +1,41 @@
+2026-05-30T04:38:49.793Z INFO Is remote: false
+2026-05-30T04:38:49.794Z INFO Starting Local. Installation path: undefined
+2026-05-30T04:38:49.794Z INFO [MainProvider] Creating new MainProvider instance...
+2026-05-30T04:38:49.796Z INFO [TabsManager] Code view listener set up at initialization
+2026-05-30T04:38:49.796Z INFO Installation path exists: c:\Users\garvi\OneDrive\Desktop\Reinforcement learning\Vault_Pass\crypto
+2026-05-30T04:38:49.798Z INFO Initializing database with URL: file:C:\Users\garvi\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-05-30T04:38:49.802Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-05-30T04:38:49.803Z INFO Database initialized successfully
+2026-05-30T04:38:49.804Z INFO [Migration] Checking for database migration...
+2026-05-30T04:38:49.989Z INFO [Migration] No migration needed
+2026-05-30T04:39:01.300Z INFO [TabsManager] First file opened, triggering split view
+2026-05-30T04:39:01.301Z INFO [MainProvider] First file opened, creating split view
+2026-05-30T04:39:11.541Z INFO Closing entire Pythagora extension...
+2026-05-30T04:39:11.550Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new ZI (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:151655)
+	at i._remoteCall (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:157707)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:407:154502)
+	at Cg._doExecuteCommand (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:48252)
+	at Cg.executeCommand (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:502:47699)
+	at Object.executeCommand (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:641:136543)
+	at closeEntirePythagoraExtension (c:\Users\garvi\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\garvi\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at bP._deactivate (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:14483)
+	at file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12010
+	at Array.map (<anonymous>)
+	at bP._deactivateAll (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:11998)
+	at bP.terminate (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:506:12349)
+	at i.terminate (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:508:1072)
+	at Gs (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:11700)
+	at cp.value (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:9847)
+	at E._deliver (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3244)
+	at E.fire (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3562)
+	at as.fire (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///c:/Users/garvi/AppData/Local/Programs/Microsoft%20VS%20Code/6a49527b96/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:805:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+Extra context: {
+  "message": "Canceled"
+}
