@@ -1,1 +1,7 @@
 myenv
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+*.key
+private_key*
