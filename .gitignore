@@ -5,3 +5,6 @@ __pycache__/
 .env
 *.key
 private_key*
+*.db
+*.sqlite
+*.sqlite3
