@@ -4,5 +4,7 @@ argon2-cffi
 SQLAlchemy
 alembic
 psycopg2-binary
+fastapi
+uvicorn
 pytest
 python-dotenv
