@@ -4,6 +4,7 @@ __pycache__/
 .pytest_cache/
 .env
 *.key
+*.privkey
 private_key*
 *.db
 *.sqlite
